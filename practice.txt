@@ -1,0 +1,18 @@
+var arr=[10,20,30,40,50];
+var sum=0;
+for(var i=0;i<arr.length;i++){
+    sum+=arr[i];
+}
+console.log(sum);
+
+setTimeout(function (){
+    alert("After 1 second");
+},1000);
+
+var pattern=/abc/;
+var result=pattern.test("acbnsshgdudg");
+console.log(result);
+
+console.log(/\d\d-\d\d-\d\d\d\d/.test("2-06-1234"));
+
+console.log(/\d\d-\d\d-\d\d\d\d/.test("12-06-1234"));
